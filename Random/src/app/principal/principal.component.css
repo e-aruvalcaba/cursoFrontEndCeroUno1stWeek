@@ -1,0 +1,14 @@
+.container{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/21201051-e34b-42e5-be96-02283a6a5d7c/fd29604b-7ea5-417b-bedb-53a5ee53c72f/MX-es-20180723-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    color: white;
+}
+
+.btn{
+    padding: 1sem;
+}
+
+.divPrincipal{
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}

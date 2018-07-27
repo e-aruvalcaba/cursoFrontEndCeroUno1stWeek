@@ -1,0 +1,16 @@
+
+<div [ngStyle]="{'background-color': 'blue'}">
+    Yo soy un div
+</div>
+
+
+<div [ngStyle]="{'background-color': miRGB()}">
+    Yo soy un div 2
+</div>
+
+<h1 [ngStyle]="{'text-align': 'center', 'color': 'red'}">
+    Yo soy un h1 que se quiere centrar
+</h1>
+<app-component1 [texto]="'esto es un string pasado al componente 1 por medio de input'">  </app-component1>
+<app-component2 [regreso]="regresar()">  </app-component2>
+<app-component3 [Nombre]="pasaObjeto('Mariana', 25, 'Masculino')">  </app-component3>
